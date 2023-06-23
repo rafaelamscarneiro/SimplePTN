@@ -67,7 +67,7 @@ else()
 endif()
 
 # examples
-add_subdirectory(examples)
+#add_subdirectory(examples)
 
 # only use code coverage with clang
 if (CMAKE_CXX_COMPILER_ID STREQUAL "Clang")
