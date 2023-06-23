@@ -8,7 +8,7 @@
 #include <iostream>
 #include <mutex>
 #include <sstream>
-#include <thread>
+#include <pthread.h>
 
 #include "SimplePTN/petri_net.hpp"
 
