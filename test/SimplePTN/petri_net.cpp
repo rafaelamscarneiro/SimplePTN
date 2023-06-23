@@ -5,6 +5,8 @@
 // SPDX-License-Identifier: OLFL-1.3
 // 
 
+#define CATCH_CONFIG_NO_POSIX_SIGNALS
+
 #include "SimplePTN/petri_net.hpp"
 
 #include <catch2/catch.hpp>
